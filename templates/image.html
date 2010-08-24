@@ -1,0 +1,42 @@
+<html>
+<head>
+
+<style type="text/css">
+  body {
+    margin: 0;
+    padding:0;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size:24px;
+  }
+  h1,ul {
+    font-size:100%;
+    font-weight:normal;
+    margin:0;
+    padding:0;
+  }
+  p {
+    background:white;
+    display:inline;
+    border:1px solid #dddddd;
+  }
+  div {
+    padding:6px;
+    border-top:1px solid #dddddd;
+  }
+  
+ 
+</style>
+
+</head>
+
+<body>
+
+<img src="{{url}}" width="{{debug.png_w}}" height="{{debug.png_h}}">
+
+<div style="background: {{mean.hex}};">
+<p><b>mean</b>: rgb({{mean.r}}, {{mean.g}}, {{mean.b}}) / {{mean.hex}}</p>
+</div>
+
+</body>
+
+</html>
